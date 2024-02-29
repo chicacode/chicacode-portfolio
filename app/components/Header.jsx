@@ -8,8 +8,8 @@ export const Header = () => {
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+          <h1 className="text-white mb-4 mt-16 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-stone-50 via-pink-400 to-pink-800">
               Hello, I&apos;m{" "}
             </span>
             <TypeAnimation
@@ -35,10 +35,10 @@ export const Header = () => {
             text ever since the 1500s,
           </p>
           <div>
-            <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
+            <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-stone-50 via-pink-400 to-pink-800 hover:bg-slate-200 text-white">
               Work With Me
             </button>
-            <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
+            <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-stone-50 via-pink-400 to-pink-800 hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download Resume
               </span>

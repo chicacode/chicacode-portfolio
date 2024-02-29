@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
+import Image from "next/image";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
@@ -29,7 +30,13 @@ export const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <Image
+            src="/images/coding-with-chicacode-LOGO.jpg"
+            width={30}
+            height={30}
+            alt="chicacode logo of the author"
+            className="rounded-full"
+          />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
