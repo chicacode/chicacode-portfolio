@@ -4,6 +4,8 @@ import { Navbar}  from "./components/Navbar";
 import { AboutSection }  from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import Footer from "./components/Footer";
+import { MediaKitSection } from "./components/MediaKitSection";
+import  { ServicesSection }  from "./components/ServicesSection";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <Header />
         <AboutSection />
         <ProjectsSection />
+        <MediaKitSection />
+        <ServicesSection />
       </div>
       <Footer />
     </main>
