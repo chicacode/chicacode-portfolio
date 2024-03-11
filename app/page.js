@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import { MediaKitSection } from "./components/MediaKitSection";
 import  { ServicesSection }  from "./components/ServicesSection";
 import { PartnersSections } from "./components/PartnersSections";
+import { ContactSection } from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <MediaKitSection />
         <ServicesSection />
         <PartnersSections />
+        <ContactSection />
       </div>
       <Footer />
     </main>
