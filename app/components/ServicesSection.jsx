@@ -63,7 +63,7 @@ export const ServicesSection = () => {
           alt="Picture of the author"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-2xl font-extrabolds text-white mb-4">
+          <h2 className="flex sm:justify-center sm:items-center md:justify-start md:items-start text-2xl font-extrabold text-white mb-4">
             CHICACODE&apos;S SERVICES
           </h2>
           <p className="text-base lg:text-lg p-2 text-justify">
