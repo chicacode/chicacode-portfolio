@@ -30,9 +30,7 @@ export const Header = () => {
             />
           </h1>
           <p className="text-[#ADB7EB] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s,
+          I’m a Software Developer with a passion for programming and user experience. I am currently living in Vancouver which bring value to my journey as a Software Developer and Content Creator.
           </p>
           <div>
             <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-stone-50 via-pink-400 to-pink-800 hover:bg-slate-200 text-white">
@@ -40,7 +38,9 @@ export const Header = () => {
             </button>
             <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-stone-50 via-pink-400 to-pink-800 hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                <a download href="./resume-Geraldine-Hernandez.pdf" target="_blank" alt="cv" >
                 Download Resume
+                </a>
               </span>
             </button>
           </div>

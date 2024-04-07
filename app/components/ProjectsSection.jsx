@@ -59,6 +59,24 @@ const projectsData = [
     gitUrl: "https://github.com/chicacode/todo-app",
     previewUrl: "https://chicacode.github.io/todo-app/",
   },
+  {
+    id: 7,
+    title: "Vivi's Athlete Coaching App",
+    description: "Vivi Athlete Managing App build with FlutterFlow, Flutter, Postgresql for IOS",
+    image: "/images/projects/7/IMG_1575.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://www.viviathletics.com/",
+    previewUrl: "https://www.viviathletics.com/",
+  },
+  {
+    id: 8,
+    title: "Urbi Resident App",
+    description: "Urbi Residency/Properties Managing Mobile App build with FlutterFlow, Flutter, Postgresql for IOS and Android",
+    image: "/images/projects/8/IMG_1585.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://apps.apple.com/ca/app/urbi-resident/id6477546688",
+    previewUrl: "https://apps.apple.com/ca/app/urbi-resident/id6477546688",
+  },
 ];
 
 const ProjectsSection = () => {

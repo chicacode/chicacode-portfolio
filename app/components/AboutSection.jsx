@@ -68,7 +68,7 @@ export const AboutSection = () => {
                 <p className="text-base lg:text-lg">
                 I’m a Software Developer with a passion for programming and user experience. 
                 My background is in Psychology which I think brings a valuable perspective to the user experience. More than four years ago I completed a five-month full-time course in JavaScript / React at Ubiqum Code Academy. Since then I have been working at Between Technology honing my JavaScript, CSS and React skills, and then I worked in Babel Sistemas with Angular and TypeScript. Whilst I’ve learnt a lot as a first and second job I’m keen to find a growing company that works in an agile way. I’m excited by the pace of work, dedication to excellence and chance to grow and shine as a Developer. 
-                Currently working as Frontend and Mobile Developer with Technologies like Flutter and FlutterFlow in a start-up in Canada
+                Currently working as Frontend and Mobile Developer with Technologies like Flutter and FlutterFlow for a start-up based in Calgary Canada.
                 </p>
 
                 <div className="flex flex-row justify-start mt-8">
