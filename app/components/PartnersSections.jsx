@@ -27,7 +27,8 @@ const logos = [
   "/images/logos/xcode.png",
   "/images/logos/scribe.png",
   "/images/logos/ubiqum.png",
-  // '/images/logos/benq.png',
+  "/images/logos/filmora-horizontal.png",
+  '/images/logos/benq.png',
   // Add more logos if needed
 ];
 
