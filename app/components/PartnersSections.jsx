@@ -29,6 +29,7 @@ const logos = [
   "/images/logos/ubiqum.png",
   "/images/logos/filmora-horizontal.png",
   '/images/logos/benq.png',
+  '/images/logos/daily-dev.png',
   // Add more logos if needed
 ];
 
