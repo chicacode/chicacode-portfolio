@@ -30,12 +30,14 @@ const logos = [
   "/images/logos/filmora-horizontal.png",
   '/images/logos/benq.png',
   '/images/logos/daily-dev.png',
+  '/images/logos/wix-studio.png',
+  '/images/logos/ztm.png',
   // Add more logos if needed
 ];
 
 export const PartnersSections = () => {
   return (
-    <div className="grid grid-cols-5 gap-4">
+    <div className="grid grid-cols-5 gap-4 p-4 rounded-lg bg-gradient-to-r from-stone-900 via-purple-500 to-pink-500 hover:bg-pink-100">
       {logos.map((logo, index) => (
         <div key={index} className="flex justify-center items-center">
           <Link
