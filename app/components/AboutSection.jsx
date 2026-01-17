@@ -16,7 +16,6 @@ const TAB_DATA = [
           <li>Sequelize</li>
           <li>JavaScript</li>
           <li>React</li>
-          <li>Angular</li>
           <li>FlutterFlow</li>
         </ul>
       ),
@@ -66,9 +65,9 @@ export const AboutSection = () => {
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                 <p className="text-base lg:text-lg">
-                I’m a Software Developer with a passion for programming and user experience. 
-                My background is in Psychology which I think brings a valuable perspective to the user experience. More than four years ago I completed a five-month full-time course in JavaScript / React at Ubiqum Code Academy. Since then I have been working at Between Technology honing my JavaScript, CSS and React skills, and then I worked in Babel Sistemas with Angular and TypeScript. Whilst I’ve learnt a lot as a first and second job I’m keen to find a growing company that works in an agile way. I’m excited by the pace of work, dedication to excellence and chance to grow and shine as a Developer. 
-                Currently working as Frontend and Mobile Developer with Technologies like Flutter and FlutterFlow for a start-up based in Calgary Canada.
+                I’m a Front-End Developer with a passion for programming and user experience. 
+                My background is in Psychology which I think brings a valuable perspective to the user experience. More than five years ago I completed a five-month full-time course in JavaScript / React at Ubiqum Code Academy. Since then I have been working at Between Technology honing my JavaScript, CSS and React skills, and then I worked in Babel Sistemas with Angular and TypeScript. Whilst I’ve learnt a lot as a first and second job I’m keen to find a growing company that works in an agile way. I’m excited by the pace of work, dedication to excellence and chance to grow and shine as a Developer. 
+                Currently , I’m expanding my skill set by learning AI to bring value to my journey as a Software Developer and Content Creator.
                 </p>
 
                 <div className="flex flex-row justify-start mt-8">

@@ -15,22 +15,22 @@ export const Header = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Geri",
-                1000,
-                "Web Developer",
-                1000,
+                "Geraldine",
+                10000,
+                "Front-End Developer",
+                10000,
                 "Mobile Developer",
-                1000,
+                10000,
                 "Content Creator",
-                1000,
+                10000,
               ]}
               wrapper="span"
               speed={50}
-              repeat={Infinity}
+              repeat={5}
             />
           </h1>
           <p className="text-[#ADB7EB] text-base sm:text-lg mb-6 lg:text-xl">
-          I’m a Software Developer with a passion for programming and user experience. I am currently living in Vancouver which bring value to my journey as a Software Developer and Content Creator.
+          I’m a Front-End Developer with a passion for programming, problem-solving and user experience. I am currently learning AI which bring value to my journey as a Software Developer and Content Creator.
           </p>
           <div>
             <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-stone-50 via-pink-400 to-pink-800 hover:bg-slate-200 text-white">

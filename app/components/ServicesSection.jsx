@@ -23,23 +23,15 @@ const TAB_DATA = [
     title: "Partnerships",
     id: "partnerships",
     content: (
-      <ul className="list-disc pl-2">
-        <li>2 Reels + 1 Story = 4250 USD$</li>
-        <li>1 reel + 2 stories + link bio = 2800 USD$</li>
-        <li>1 post + 2 story = 2500 USD$</li>
-        <li>1 post + 1 stories = 2150 US</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Sales",
-    id: "sales",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>3 Reels + 1 Story + Link in bio = 3950 USD$ / until June 31</li>
-        <li>2 Reels + 1 Story = 2550 USD$ / until June 31</li>
-        <li>1 Reels + 1 Story = 1750 USD$ / until June 31</li>
-      </ul>
+      
+   <ul className="list-disc pl-2">
+        <li>Sponsored Content</li>
+        <li>Brand Collaborations</li>
+        <li>Product Reviews</li>
+        <li>Affiliate Marketing</li>
+        <li>Event Appearances</li>
+        <li>Custom Campaigns</li>
+      </ul> 
     ),
   },
 ];
@@ -73,7 +65,7 @@ export const ServicesSection = () => {
           <p className="p-2 text-justify">As a seasoned Frontend Developer and visionary
             Content Creator, I bring a fusion of technical prowess and creative
             flair to the table. With a solid foundation in programming and
-            software development cultivated over 4 years in Vancouver, I&apos;m{" "}
+            software development cultivated over 5 years in Vancouver, I&apos;m{" "}
             deeply immersed in the pulse of technological innovation.</p>
           <p className="p-2 text-justify"> Currently,
             I&apos;m igniting transformation within an exceptional
@@ -97,12 +89,6 @@ export const ServicesSection = () => {
               active={tab === "partnerships"}
             >
               Partnerships{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("sales")}
-              active={tab === "sales"}
-            >
-              Sales{" "}
             </TabButton>
           </div>
           <div className="mt-8">
